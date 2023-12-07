@@ -1,0 +1,214 @@
+
+:root{
+    --main-color:#ff4d29;
+}
+body{
+    line-height: 1.7;
+    font-family: 'segoe ui light';
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: 700 !important;
+}
+.h-styling{
+    color: var(--main-color);
+}
+
+
+
+#Above_Header{
+    background-color: var(--main-color);
+}
+.soical-icons i{
+    width: 34px;
+    height: 34px;
+    background-color: rgba(255, 255, 255, 0.25);
+    border-radius: 50%;
+    color: #fff;
+    transition: all 0.3s ease;
+}
+.soical-icons i:hover{
+    color: var(--main-color);
+    background-color: #fff;
+}
+
+/* nav */
+#Nav{
+    position: sticky;
+    top: 0;
+    z-index: 9;
+    background-color: #f4f4f4;
+    box-shadow:0px 6px 30px rgba(0, 0, 0, 0.08);;
+}
+.navbar-brand{
+    font-size: 2rem;
+}
+.navbar-brand span{
+    color: var(--main-color);
+}
+#Nav .active{
+    color: var(--main-color);
+}
+.navbar-nav a:hover{
+    color: var(--main-color);
+    
+}
+.bg-main-color{
+    background-color: var(--main-color);
+}
+.navbar-toggler{
+    background-color: var(--main-color);
+}
+.nav-item a:hover{
+    color: var(--main-color) !important;
+}
+/* end nav */
+
+/* header */
+.carousel-item1{
+    background-image: url(../img/bg_banner1.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+.carousel-item2{
+    background-image: url(../img/bg_banner2.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+.bg-opacityy{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.move-carsoul
+{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color: #fff;
+    background-color: #3333334d;
+}
+.move-carsoul span{
+    color: #fff;
+}
+.move-carsoul:hover{
+    background-color: #fff;
+    color: var(--main-color);
+}
+.move-carsoul:hover span{
+    color: var(--main-color);
+}
+@media screen and (max-width:786px) {
+    .move-carsoul{
+        background-color: #fff;
+    }
+    .move-carsoul span{
+        color: var(--main-color);
+    }
+}
+.head-content{
+    color: #fff;
+}
+.head-content h1{
+    font-size: 80px;
+}
+@media screen and (max-width:786px) {
+    .head-content h1{
+        font-size: 30px;
+    }
+}
+.head-content a{
+    background-color: #ff4d29;
+    color: #fff;
+    border: none;
+    padding: 10px 10px;
+    text-decoration: none;
+
+}
+.head-content .a-bg{
+    background-color: transparent;
+    border: 1px solid #fff;
+}
+
+
+/* About */
+#About{
+    padding: 80px 50px;
+}
+#About .container img{
+    width: unset;
+}
+@media screen and (max-width:992px) {
+    #About {
+        text-align: center;
+    }
+    #About .container .icons img{
+        width: 70px;
+    }
+}
+/*  */
+
+#sec{
+    background: linear-gradient(rgba(255, 77, 41, 0.85), rgba(255, 77, 41, 0.85)), url(../img/bg_banner1.jpg);
+    background-position: center center;
+    background-size: cover;
+    padding: 60px 50px;
+    color: #fff;
+}
+
+
+
+
+.p-styling{
+    width: 50%;
+}
+@media screen and (max-width:567px) {
+    .p-styling{
+        width: 100%;
+        font-size: 1.2rem;
+    }
+}
+@media screen and (max-width:567px) {
+    #Services .item p{
+        width: 100%;
+        font-size: 0.9rem;
+    }
+}
+
+
+
+
+
+
+footer {
+    background: linear-gradient(0deg, rgba(8, 32, 50, 0.9), rgba(8, 32, 50, 0.9)), url(../img/bg_banner1.jpg), #082032;;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+footer .footer-top {
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+
+.footer-bottom {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+footer .navbar-brand {
+    color: #fff;
+}
+
+footer p {
+    color: #ADB3B9;
+}
+
+footer .social-icons a {
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    margin-left: 4px;
+    margin-right: 4px;
+}
